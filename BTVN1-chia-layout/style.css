@@ -1,0 +1,38 @@
+body, * {
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    background-color: rgb(219, 69, 151);
+    color: white;
+    height: 85px;
+}
+.menu {
+    background-color: rgb(12, 151, 244);
+    color: white;
+    height: 50px;
+}
+.mainbody {
+    display:flex;
+    height: 500px;
+    color: white;
+}
+.mainbody .left {
+    background-color: rgb(122, 220, 127);
+    width: 25%;
+}
+.mainbody .content {
+    background-color: rgb(22, 218, 113);
+    width: 50%;
+}
+
+.mainbody .right {
+    background-color: rgb(242, 183, 94);
+    width: 25%;
+}
+
+.footer {
+    background-color: rgb(96, 98, 101);
+    color: white;
+    height: 50px;
+}
