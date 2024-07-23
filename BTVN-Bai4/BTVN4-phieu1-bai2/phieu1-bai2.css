@@ -1,0 +1,15 @@
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+.paragraph {
+    background-color: aqua;
+    margin-left: 10px;
+    height: 50px;
+    line-height: 83px;
+}

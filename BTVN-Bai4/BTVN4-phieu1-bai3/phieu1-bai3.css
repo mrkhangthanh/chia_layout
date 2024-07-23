@@ -1,0 +1,24 @@
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
+.vanban {
+    background-color: blue;
+    height: 200px;
+    padding: 25px 25px;
+    margin: 25px 25px;
+}
+
+.noidung {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(72, 138, 138);
+    color: white;      
+}
+
+.lr {
+    align-items: center;
+    margin: 0 25px ;
+}

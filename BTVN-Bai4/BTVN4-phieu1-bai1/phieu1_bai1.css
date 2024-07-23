@@ -1,0 +1,12 @@
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-left: 10px;
+}
+.paragraph {
+    border: 5px dotted red;
+    margin: 20px 10px ;
+}

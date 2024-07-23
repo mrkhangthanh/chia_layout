@@ -1,0 +1,28 @@
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
+.root {
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    justify-content: space-around;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    text-align: center;
+}
+
+.chinhtri {
+    border-left: 1px solid white;
+    width: 25%;
+}
+
+.chinhtri:first-child{
+    border-left: none;
+}
+
+.chinhtri:hover {
+    background-color: rgb(226, 126, 10);
+}

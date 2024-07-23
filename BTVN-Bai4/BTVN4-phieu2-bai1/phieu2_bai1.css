@@ -1,0 +1,27 @@
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 5px;
+    font-weight: bolder;
+    background-color: rgb(216, 105, 25);
+    height: fit-content;
+    border-bottom: 3px solid black;
+   
+}
+table {
+    margin-top: 20px;
+    text-align: center;
+    width: 350px;
+    line-height: 50px;
+    border: solid rgb(216, 125, 13);
+    border-color: rgb(216, 125, 13);
+    
+}
+th{
+    color:white;
+    background-color: rgb(227, 102, 12);
+}
+
