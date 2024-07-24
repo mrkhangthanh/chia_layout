@@ -1,0 +1,88 @@
+body, * {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    background-color: aqua;
+    height: 35px;
+    line-height: 35px;
+    font-weight: bold;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.items .sub-items {  
+    width: 100%;
+    text-align: center;
+}
+
+.items .sub-items:hover {
+    background-color: rgb(168, 220, 24);
+    cursor: pointer;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.sub-products{
+     display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: 0 auto;
+
+}
+.rice {
+    width: 210px;
+    padding-bottom: 20px;
+    text-align: center;
+    position:relative;
+}
+
+.rice img {
+    height: 150px;
+    width: 90%;
+}
+p {
+    font-weight: bolder;
+    line-height: 25px;
+}
+.price {
+    color: red;
+    font-weight: bolder;
+}
+.goi-mon {
+    background-color: rgb(64, 251, 189);
+    width: 90%;
+    margin: 0 auto;
+    height: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 7px 10px #333;
+}
+
+.goi-mon:hover {
+    background-color: red;
+    cursor: pointer;
+}
+.sale {
+    background-color: #ee0b0b;
+    color: white;
+    width: 35%;
+    position: absolute;
+    top: 0px;
+    left: 10px;   
+}
+
+.footer {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+

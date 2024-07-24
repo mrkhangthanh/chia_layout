@@ -1,0 +1,132 @@
+body, * {
+    margin:0;
+    padding: 0;
+}
+
+.banner {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(110, 247, 169);
+    border-bottom-left-radius: 50%;
+}
+.paragrap {
+    justify-content: space-around;
+    position: relative;
+}
+.hello{
+    font-size: 30px;
+    position: absolute;
+    top: 120px;
+    left: 30%;
+    margin: 0 auto;
+}
+.sub-icon {
+   position: absolute;
+   right: 6%;
+   top: 80px;
+}
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.information {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(39, 99, 99);
+    color: orange;
+    border-radius: 50% 50%;
+    margin: 20px 0;
+    text-align: center;
+    line-height: 100px;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.edu-blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.edu-blog1 {
+    height: 50px;
+    background-color: orange;
+    width: 55%;
+
+}
+.edu-blog2{
+    height: 50px;
+    background-color: orange;
+    width: 40%;
+}
+.noi_dung{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.left {
+    
+    width: 55%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+    align-content: flex-start;
+}
+
+
+.khoa_hoc img {
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    
+}
+.left .khoa_hoc {
+    width: 30%;
+   margin-top: 10px;
+}
+.left .khoa_hoc p {
+    background-color: aqua;
+}
+.container_status{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top :10px;
+    
+}
+.right {
+    display: flex;
+    border: 1px solid goldenrod;
+    gap:5px;
+}
+.right .circle {
+    background-color:aquamarine;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.right .status .tin_tuc {
+    margin-top: 10px;   
+}
+.footer {
+    margin-top: 20px;
+    height: 80px;
+    background-color: rgb(227, 219, 207);
+    color: red;
+    text-align: center;
+    line-height: 80px;
+    font-size: x-large;
+    font-weight: bolder;
+}
