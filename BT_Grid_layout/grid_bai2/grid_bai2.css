@@ -1,0 +1,93 @@
+body, * {
+    padding: 0;
+    margin: 0;
+}
+
+.root {
+    background-color: rgb(43, 38, 38);
+    height: 440px;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 33% 33% 33%;
+    height: 400px;
+    padding: 10px;
+    justify-content: center;
+
+}
+.container .left {
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.center {
+
+}
+
+.center1{
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+
+.center2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+.center3{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+
+}
+
+.center4{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+}
+
+.center5{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.right {
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+
+.top_right {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.same1 {
+    background-color: rgb(18, 219, 45);
+}
+ 
+.same2 {
+    background-color: red;
+}
+
+.same3 {
+    background-color: yellow;
+}
