@@ -1,18 +1,18 @@
-let n = 10;
-// let songuyento = true;
-if( n <= 2 ){
-    console.log('day khong phai snt');
-}
-if( n >= 3){
-    for( let i = 3; i < n; i++){
-        if (n % i == 0){
-            console.log(n + ' khong phai la snt');
+// Cho một số nguyên dương n bất kỳ. Viết chương trình kiểm tra số n có phải là số nguyên tố không?
+let n = 11;
+if (n >=2 ){
+    let snt = true;
+    for( let i = 2; i < n; i++){
+        if(n % i === 0 ){
+            console.log(n + "  khong phai so nguyen to")
+            snt = false;
             break;
         }
-        else {
-            console.log("day la so nguyen to")
-        }
-        
     }
+    if(snt){
+        console.log(n + " la so nguyen to");
 
+    }
+} else {
+    console.log('khong phai snt');
 }
