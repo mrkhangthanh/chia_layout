@@ -5,8 +5,10 @@ let dem = 0;
 for (let i = 1; i <= n / 2 ; i++) {
     if (n % i === 0) {
         sum += i;
-        if ( sum === n) {
-            console.log(" day la so hoan hao");
-        } 
     }
+    }
+    if ( sum === n) {
+        console.log(" day la so hoan hao");
+    } else {
+        console.log('day khong phai la so hoan hao')
     }
